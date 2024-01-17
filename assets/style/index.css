@@ -1,0 +1,128 @@
+:root{
+    --color-primary: hsl(47, 88%, 63%);
+
+    /*neutral*/
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-grey: hsl(0, 0%, 50%);
+    --color-neutral-black: hsl(0, 0%, 7%);
+/*typo*/
+--font-size-paragraph: 16;
+--font-family: 'Figtree';
+--font-weight-sb: 600;
+--font-weight-eb:800;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    overflow: auto;
+    
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  var(--color-primary);
+    font-family:var(--font-family);
+    font-size: calc( var(--font-size-paragraph) * 1px);
+  }
+  
+  main{
+   flex:1 ;
+   width: 100%;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  article{
+    background-color: var(--color-neutral-white);
+    width: 85%;
+   
+    padding: 1em;
+    border-radius: 16px;
+    border: 1px solid var(--color-neutral-black);
+    box-shadow: 10px 10px 2px rgb(0, 0, 0);
+    color: var(--color-neutral-black);
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+  }
+header{
+    width: 100%;
+    height: auto;
+   
+   
+}
+header img{
+    
+   width: 100%;
+    border-radius: 14px;
+}
+article > main{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .4em;
+   
+}
+.published{
+
+    font-size: 14px;
+    font-weight: var(--font-weight-sb);
+}
+.tags{
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    font-weight: var(--font-weight-eb);
+    font-size: 13px;
+    padding: .2em .5em .2em .5em;;
+}
+h1{
+    font-weight: var(--font-weight-eb);
+}
+p{
+    color: var(--color-neutral-grey);
+}
+footer{
+    width: 100%;
+    font-weight: var(--font-weight-eb);
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+footer span{
+    width: 2em;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-content: center;
+}
+footer span img{
+   width: 100%;
+}
+
+
+/*
+  Média query
+  min-width 1440 = desktop
+  min-width: 992 = laptop
+  min-width: 768 = tablette
+  min-width: 600 = mobile
+
+  */
+
+ 
+  @media only screen and (min-width: 600px) {
+
+  article{
+    max-width: 350px;
+   
+  }
+}
+  
