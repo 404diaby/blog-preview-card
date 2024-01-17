@@ -2,7 +2,7 @@
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-![Desktop Preview Screen](screenshot/desktop-preview.jpg)
+![Desktop Preview Screen](/screenshot/desktop-preview.jpg)
 ## Table of contents
 
 - [Overview](#overview)
@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Screen](screenshot/desktopView.png)
-![Mobile Screen](screenshot/mobileView.png)
+![Desktop Screen](/screenshot/desktopView.png)
+![Mobile Screen](/screenshot/mobileView.png)
 
 
 ### Links
 - Solution URL: [Github - repository](https://github.com/404diaby/blog-preview-card)
-- Live Site URL: [Vercel - hosting]()
+- Live Site URL: [Vercel - hosting](https://blog-preview-card-beta-nine.vercel.app/)
 
 ## My process
 
